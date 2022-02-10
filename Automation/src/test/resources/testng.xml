@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  <suite name="Case2" verbose="1" >
+ <test name="Case2" >
+    <classes>
+       <class name="secondtest">
+       <methods>
+        <include name="Case2" />
+       </methods>
+           </class>
+    </classes>
+  </test>
+  
+  
+
+ 
+ 
+ </suite>
